@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 760"
+   width="600"
+   height="760"
+   font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="p1_forca_bruta.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:c2pa="http://c2pa.org/manifest">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1921053"
+     inkscape:cx="260.70828"
+     inkscape:cy="133.88956"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs1">
+    <marker
+       id="ar"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#475569"
+         id="path1" />
+    </marker>
+    <marker
+       id="ar-9"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#475569"
+         id="path1-4" />
+    </marker>
+    <marker
+       id="ar-4"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#475569"
+         id="path1-5" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="600"
+     height="760"
+     fill="#ffffff"
+     id="rect1" />
+  <line
+     x1="70.177673"
+     y1="474.35443"
+     x2="70.177673"
+     y2="424.3544"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar-4)"
+     id="line14-1"
+     style="marker-end:url(#ar-4)" />
+  <text
+     x="300.0"
+     y="30.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="19"
+     fill="#0f172a"
+     id="text1"><tspan
+       x="300.0"
+       dy="0"
+       id="tspan1">P1 - Soma dos Pares Apos Consultas</tspan></text>
+  <text
+     x="300.0"
+     y="56.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13"
+     fill="#64748b"
+     id="text2"><tspan
+       x="300.0"
+       dy="0"
+       id="tspan2">Forca bruta - O(N x Q)</tspan></text>
+  <rect
+     x="230.0"
+     y="74.0"
+     width="140"
+     height="42"
+     rx="21.0"
+     fill="#334155"
+     stroke="#1e293b"
+     stroke-width="2"
+     id="rect2" />
+  <text
+     x="300"
+     y="95.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="14"
+     fill="#ffffff"
+     id="text3"><tspan
+       x="300"
+       dy="0"
+       id="tspan3">Inicio</tspan></text>
+  <rect
+     x="120.0"
+     y="141.0"
+     width="360"
+     height="48"
+     rx="7"
+     fill="#ecfdf5"
+     stroke="#059669"
+     stroke-width="2"
+     id="rect3" />
+  <text
+     x="300"
+     y="165.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13.5"
+     fill="#064e3b"
+     id="text4"><tspan
+       x="300"
+       dy="0"
+       id="tspan4">Ler N, Q e o array A[0 .. N-1]</tspan></text>
+  <polygon
+     points="300,224.0 420.0,270 300,316.0 180.0,270"
+     fill="#fef9c3"
+     stroke="#ca8a04"
+     stroke-width="2"
+     id="polygon4" />
+  <text
+     x="300"
+     y="262.5"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13"
+     fill="#713f12"
+     id="text6"><tspan
+       x="300"
+       dy="0"
+       id="tspan5">Restam consultas?</tspan><tspan
+       x="300"
+       dy="15"
+       id="tspan6">(repetir Q vezes)</tspan></text>
+  <rect
+     x="120.0"
+     y="366.0"
+     width="360"
+     height="48"
+     rx="7"
+     fill="#eff6ff"
+     stroke="#3b82f6"
+     stroke-width="2"
+     id="rect6" />
+  <text
+     x="300"
+     y="390.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13.5"
+     fill="#17365d"
+     id="text7"><tspan
+       x="300"
+       dy="0"
+       id="tspan7">Ler a consulta (val, idx)</tspan></text>
+  <rect
+     x="120.0"
+     y="446.0"
+     width="360"
+     height="48"
+     rx="7"
+     fill="#eff6ff"
+     stroke="#3b82f6"
+     stroke-width="2"
+     id="rect7" />
+  <text
+     x="300"
+     y="470.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13.5"
+     fill="#17365d"
+     id="text8"><tspan
+       x="300"
+       dy="0"
+       id="tspan8">A[idx] = A[idx] + val</tspan></text>
+  <rect
+     x="90.0"
+     y="530.0"
+     width="420"
+     height="60"
+     rx="7"
+     fill="#fee2e2"
+     stroke="#dc2626"
+     stroke-width="2"
+     id="rect8" />
+  <text
+     x="300"
+     y="552.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13.5"
+     fill="#7f1d1d"
+     id="text10"><tspan
+       x="300"
+       dy="0"
+       id="tspan9">Varrer TODO o array A somando</tspan><tspan
+       x="300"
+       dy="16"
+       id="tspan10">os elementos pares  -&gt;  sum</tspan></text>
+  <line
+     x1="299.16522"
+     y1="658.84888"
+     x2="299.16522"
+     y2="686.86096"
+     stroke="#475569"
+     stroke-width="1.49699"
+     marker-end="url(#ar-9)"
+     id="line14-8"
+     style="marker-end:url(#ar-9)" />
+  <rect
+     x="120.0"
+     y="626.0"
+     width="360"
+     height="48"
+     rx="7"
+     fill="#eff6ff"
+     stroke="#3b82f6"
+     stroke-width="2"
+     id="rect10" />
+  <text
+     x="300"
+     y="650.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="13.5"
+     fill="#17365d"
+     id="text11"><tspan
+       x="300"
+       dy="0"
+       id="tspan11">Imprimir sum</tspan></text>
+  <rect
+     x="240.0"
+     y="699.0"
+     width="120"
+     height="42"
+     rx="21.0"
+     fill="#334155"
+     stroke="#1e293b"
+     stroke-width="2"
+     id="rect11" />
+  <text
+     x="300"
+     y="720.0"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="14"
+     fill="#ffffff"
+     id="text12"><tspan
+       x="300"
+       dy="0"
+       id="tspan12">Fim</tspan></text>
+  <line
+     x1="300.0"
+     y1="116.0"
+     x2="300.0"
+     y2="141.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line12" />
+  <line
+     x1="300.0"
+     y1="189.0"
+     x2="300.0"
+     y2="224.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line13" />
+  <line
+     x1="300.0"
+     y1="316.0"
+     x2="300.0"
+     y2="366.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line14" />
+  <text
+     x="304.70108"
+     y="331.98199"
+     text-anchor="start"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="12.5px"
+     fill="#334155"
+     font-weight="600"
+     id="text14">sim</text>
+  <line
+     x1="300.0"
+     y1="414.0"
+     x2="300.0"
+     y2="446.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line15" />
+  <line
+     x1="300.0"
+     y1="494.0"
+     x2="300.0"
+     y2="530.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line16" />
+  <line
+     x1="300.0"
+     y1="590.0"
+     x2="300.0"
+     y2="626.0"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="line17" />
+  <polyline
+     points="420.0,270.0 540.0,270.0 540.0,720.0 360.0,720.0"
+     fill="none"
+     stroke="#475569"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="polyline17" />
+  <text
+     x="437.14764"
+     y="263.54382"
+     text-anchor="middle"
+     font-family="'Segoe UI', 'Trebuchet MS', Roboto, Arial, sans-serif"
+     font-size="12.5px"
+     fill="#334155"
+     font-weight="600"
+     id="text17">não</text>
+  <polyline
+     points="300.0,674.0 70.0,674.0 70.0,270.0 180.0,270.0"
+     fill="none"
+     stroke="#64748b"
+     stroke-width="2"
+     marker-end="url(#ar)"
+     id="polyline18"
+     transform="matrix(0.99700071,0,0,1.0309244,0.23080001,-8.1573087)" />
+  <metadata
+     id="metadata18">
+    <c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2YTA2YzgzMS04NzlhLTQ3YmUtYjhhZS00NjQ4ZDA1N2Y1ZWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLK5hv0elupaDtx1crlBJNoAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmNjNhYjRmNy1kOWQxLTQxNWEtYjBjMy04ZTBkNmEyMDk4NTlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoiD+smywXDITsF0Oo7NIkZgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggQJYHRXJbe1Xd8m/v4IWwGvyJfxa5Nek5drlqh4nzgaSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaDmBPQDdG2M6LOUEgidZfnkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAgD3auTV7kbUk1EWQqlLajqjeV2k0FQNkh1avxmpb1oZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GRNuZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjZhMDZjODMxLTg3OWEtNDdiZS1iOGFlLTQ2NDhkMDU3ZjVlYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjZiNGM2ZTdhLWQxN2QtNGYyZS04MDYxLWFlNTJhZGIzMDJhMHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBAlgdFclt7Vd3yb+/ghbAa/Il/Frk16Tl2uWqHifOBpKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggP0ktFW7+YrmrI/DV80NRnRvYiCFpJdio4fXNtOHwO9SiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg7/7D5/t91FGtbz3n9Pd7eop3RzNjYjIZIZ/ZrwAL1sJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQISyheoMRuLgooNRsTR8MvwLLXurAHvnlprspRc0UMrJqmIP0QYD3z2bTlYcpbY8d5DkQ9CP2B3/nuXhxeV/mqo=</c2pa:manifest>
+  </metadata>
+</svg>
